@@ -1,16 +1,13 @@
-
-
-.appointment-header {
+.contact-header {
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
     color: white;
   }
   
-  .appointment-title {
+  .contact-title {
     font-size: 3rem;
     font-weight: bold;
-
   }
   
 
@@ -18,9 +15,9 @@
     background: transparent;
     padding: 0;
     margin-bottom: 0;
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
   }
   
   .breadcrumb-item a {
@@ -34,15 +31,16 @@
   .text-end {
     text-align: right !important;
   }
-
   
   .col-md-6.text-end {
     display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
+    justify-content: flex-end;
+    align-items: center;
   }
 
-  .appointment-form-section {
+  /* segundo bloque */
+
+  .contact-form-section {
     background-color: #f8f9fa;
     padding: 4rem 0;
     border-radius: 10px;
@@ -50,20 +48,20 @@
   }
   
   .form-title {
-    font-size: 2.25rem;
-    margin-bottom: 2rem;
+    font-size: 2.25rem; 
     margin-top: 2rem;
+    margin-bottom: 2rem;
     color: #333;
     text-align: left;
   }
   
   .appointment-form .form-control {
-    padding: 0.85rem;
-    font-size: 1.1rem;
-    border-radius: 8px;
-    border: 1px solid #b8b8b8; 
-    margin-bottom: 1.5rem;
-    resize: none;
+    padding: 0.85rem; 
+    font-size: 1.1rem; 
+    border-radius: 5px;
+    border: 1px solid #b2b1b1; 
+    margin-bottom: 1.5rem; 
+    resize: none; 
   }
   
   .appointment-form .form-control:focus {
@@ -71,24 +69,22 @@
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
   }
   
-  .appointment-form .submit-btn {
+  .submit-btn {
     background-color: #007bff;
     border-color: #007bff;
-    padding: 0.6rem 2.5rem;
-    font-size: 1.2rem;
+    padding: 0.6rem 2.5rem !important; 
+    font-size: 1rem !important; 
+    border-radius: 25px;
     text-transform: uppercase;
-    margin-top: 0rem;
     display: inline-block;
     color: white; 
-    border-radius: 25px;
   }
   
-  .appointment-form .submit-btn:hover {
+  .submit-btn:hover {
     background-color: #0056b3; 
     border-color: #0056b3; 
     color: white; 
   }
-
 
   .subscribe-section {
     background-color: #f8f9fa;
@@ -104,7 +100,7 @@
   }
   
   .subscribe-text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #555;
   }
   
@@ -113,19 +109,18 @@
     font-size: 1rem;
     border-radius: 5px;
     border: 1px solid #ccc; 
+  }
 
+
+  .btn-subscribe {
+    background-color: #f0f0f0; 
+    border-color: #2178ce; 
+    font-size: 1.2rem;
+    color: #333; 
   }
   
-  .btn-primary {
-    background-color: #a3a5a7;
-    border-color: #727374;
-    padding: 0.75rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
-  
-  .btn-primary:hover {
-    background-color: #4b4c4d; 
-    border-color: #4b4c4d; 
-    color: white;
+  .btn-subscribe:hover {
+    background-color: #007bff; 
+    border-color: #1378d7; 
+    color: #e9e6e6; 
   }
