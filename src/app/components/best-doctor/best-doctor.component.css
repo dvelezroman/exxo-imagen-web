@@ -1,0 +1,85 @@
+.best-doctor {
+    background-color: #f8f9fa;
+    margin-top: 10rem;
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+  
+  .text-highlight {
+    color: #0b4e95;
+  }
+  
+  .section-subtitle {
+    width: 70%;
+    margin: auto;
+    font-size: 1.35rem;
+    color: #555;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .doctor-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .doctor-image img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .doctor-info {
+    margin-top: 1rem;
+  }
+  
+  .doctor-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .doctor-specialty {
+    font-size: 1.1rem;
+    color: #777;
+  }
+  
+  .doctor-social {
+    margin-top: 1rem;
+  }
+  
+  .doctor-social a {
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .doctor-social a:hover {
+    color: #0056b3;
+  }
+  
+  .btn-all-doctors {
+    background-color: #007bff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-all-doctors:hover {
+    background-color: #0056b3;
+  }

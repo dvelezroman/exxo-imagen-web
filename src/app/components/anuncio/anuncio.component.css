@@ -1,0 +1,50 @@
+.cta-section {
+  height: 140px;
+  background: linear-gradient(90deg, #8ddccc, #68afd6, #9b59b6);
+  color: white;
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  position: relative;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  padding-left: 25rem;
+  color: rgb(223, 226, 226);
+}
+
+.btn-cta {
+  background-color: transparent;
+  border: 2px solid rgb(223, 226, 226);
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: rgb(223, 226, 226);
+  text-decoration: none;
+  margin-right: 80px;
+  transition: all .5s;
+}
+
+.btn-cta:hover {
+  background-color: rgb(223, 226, 226);
+  color: rgb(55, 55, 55);
+}
+
+.franja-img {
+  position: absolute;
+  bottom: -41px;
+  left: 70px;
+  z-index: 2;
+  max-width: 400px;
+}
+
+.col-md-3.text-md-end {
+  text-align: center;
+  margin-left: -50px;
+}

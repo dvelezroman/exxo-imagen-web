@@ -1,0 +1,92 @@
+.latest-news {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    margin-top: 2rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #064383;
+  }
+  
+  .text-highlight {
+    color: #5c32d1;
+  }
+  
+  .section-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .blog-card {
+    background-color: white;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .blog-image {
+    position: relative;
+  }
+  
+  .blog-image img {
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .blog-date {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .blog-date .day {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .blog-date .month {
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .blog-content {
+    padding: 1.5rem;
+  }
+  
+  .blog-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-text {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+    line-height: 30px;
+  }
+  
+  .read-more {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    color: #0056b3;
+  }
