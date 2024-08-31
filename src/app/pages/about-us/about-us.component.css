@@ -19,12 +19,18 @@
     background: transparent;
     padding: 0;
     margin-bottom: 0;
-    font-size: 1.25rem;
+    font-size: 1.35rem !important;
     display: inline-block; 
   }
   
   .breadcrumb-item a {
     color: white;
+    cursor: pointer;
+    transition: all .3s;
+  }
+
+  .breadcrumb-item a:hover {
+    color: #6639c6; 
   }
   
   .breadcrumb-item.active {

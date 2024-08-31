@@ -1,11 +1,11 @@
-.services-header {
+.blog-header {
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
     color: white;
   }
   
-  .services-title {
+  .blog-title1 {
     font-size: 3rem;
     font-weight: bold;
   }
@@ -21,13 +21,14 @@
   }
   
   .breadcrumb-item a {
-    color: white;
+    color: white; 
+    text-decoration: none;
     cursor: pointer;
     transition: all .3s;
   }
-
+  
   .breadcrumb-item a:hover {
-    color: #6639c6; 
+    color: #793cd4; 
   }
   
   .breadcrumb-item.active {
@@ -46,40 +47,82 @@
 
 
 
-  .services-section {
-    padding: 3rem 0;
+
+
+  .blogs-section {
+    padding: 5rem 0;
   }
   
-  .service-box {
+  .blog-card {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-top: 3rem;
-    transition: transform 0.3s ease;
+    overflow: hidden;
+    margin-top: 2rem;
   }
   
-  .service-box:hover {
-    transform: translateY(-5px);
+  .blog-image {
+    position: relative;
   }
   
-  .service-image img {
-    border-radius: 5px;
+  .blog-image img {
     width: 100%;
     height: auto;
   }
   
-  .service-title {
+  .blog-date {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+  }
+  
+  .day-block, .month-block {
+    width: 60px; 
+  }
+  
+  .day-block {
+    background-color: #926ee1; 
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .month-block {
+    background-color: #efefef; 
+    color: #2e2e2e;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .day {
     font-size: 1.5rem;
-    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .month {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .blog-content {
+    padding: 20px;
+  }
+  
+  .blog-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
     color: #333;
   }
   
-  .service-description {
-    font-size: 1.15rem;
+  .blog-description {
+    font-size: 1.2rem;
     color: #777;
-    margin-top: 10px;
     margin-bottom: 15px;
   }
   
@@ -95,20 +138,21 @@
     text-decoration: underline;
   }
   
+  /* Controlador de Página */
 
   .pagination {
     margin-top: 2rem;
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
   }
   
   .page-link {
-    color: #808183;
-    padding: 0.75rem 1.5rem; 
-    font-size: 1.25rem; 
+    color: #808081;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
   }
   
   .page-link:hover {
-    background-color: #b67eed;
+    background-color: #9f6ce2;
     color: #fff;
     border-radius: 5px;
   }
@@ -122,45 +166,4 @@
     border-color: #007bff;
     color: #fff;
     border-radius: 5px;
-  }
-
-
-  .subscribe-section {
-    background-color: #f8f9fa;
-    padding: 3rem 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .subscribe-title {
-    font-size: 1.75rem;
-    margin-bottom: 0.5rem;
-    color: #333;
-  }
-  
-  .subscribe-text {
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  .form-control {
-    padding: 0.75rem;
-    font-size: 1.1rem;
-    border-radius: 5px;
-    border: 1px solid #ccc; 
-  }
-  
-  .btn-subscribe {
-    background-color: #f0f0f0; 
-    border-color: #1899da; 
-    padding: .5rem;
-    font-size: 1.1rem;
-    color: #333; 
-    transition: all .4s;
-  }
-  
-  .btn-subscribe:hover {
-    background-color: #007bff; 
-    border-color: #bbb; 
-    color: #edecec; 
   }

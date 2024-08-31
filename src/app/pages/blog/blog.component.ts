@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-gallery',
+  selector: 'app-blog',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './gallery.component.html',
-  styleUrl: './gallery.component.css'
+  templateUrl: './blog.component.html',
+  styleUrl: './blog.component.css'
 })
-export class GalleryComponent {
+export class BlogComponent {
 
 }

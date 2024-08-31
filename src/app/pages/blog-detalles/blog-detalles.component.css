@@ -1,0 +1,386 @@
+.blog-details-header {
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+    color: white;
+  }
+  
+  .blog-details-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+
+
+
+  .breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .breadcrumb-item a {
+    color: white; 
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item a:hover {
+    color: #926ee1; 
+  }
+  
+  .breadcrumb-item.active {
+    color: #ccc;
+  }
+  
+  .text-end {
+    text-align: right !important;
+  }
+  
+  .col-md-6.text-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+
+
+  .blog-details-content {
+    padding: 8rem 0;
+  }
+  
+  .blog-image img {
+    width: 100%;
+    height: 500px;
+    border-radius: 3px;
+  }
+  
+  .blog-title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .blog-meta {
+    font-size: 1.1rem; 
+    color: #777;
+    padding-bottom: 1rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog-meta span, .blog-meta a {
+    margin-right: 15px;
+  }
+  
+  .blog-meta a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .blog-meta a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .blog-paragraph p {
+    font-size: 1.3rem; 
+    font-weight: 300;
+    color: #555;
+    padding: 1rem 0rem; 
+    text-align: justify;
+    margin-bottom: 0rem;
+  }
+  
+  .blog-quote p {
+    font-size: 1.4rem; 
+    color: #333;
+    font-style: italic;
+    text-align: justify;
+    padding: 1rem; 
+    padding-left: 20px; 
+    border-left: 9px solid #926ee1; 
+    margin-top: 1rem;
+  }
+  
+  .blog-share {
+    margin-top: 2rem;
+  }
+  
+  .blog-share span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .social-icon {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #0056b3;
+  }
+
+
+  .blog-sidebar {
+    padding: 2rem 0;
+  }
+  
+  .search-widget {
+    width: 90%;
+    border: 1px solid #b7b6b6;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    margin-bottom:2rem;
+    margin-top: 1rem;
+  }
+  
+  .widget-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 90%; 
+    margin: auto; 
+  }
+  
+  .search-bar input.form-control {
+    border: none;
+    box-shadow: none;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    border: 1px solid rgb(176, 176, 176);
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 0px;
+  }
+  
+  .search-button {
+    background-color: #926ee1; 
+    border: none;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .search-button i {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+
+  .categories-widget {
+    width: 90%; 
+    border: 1px solid #b7b6b6; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 3rem; 
+  }
+  
+  .categories-widget .widget-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-left: 2rem; 
+    color: #333;
+  }
+  
+  .categories-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 2.7rem; 
+  }
+  
+  .categories-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .categories-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+
+  }
+  
+  .categories-list li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+
+  .popular-posts-widget {
+    width: 90%;
+    border: 1px solid #b7b6b6; 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem; 
+    margin: auto;
+  }
+  
+  .popular-posts-widget .widget-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    color: #333;
+  }
+  
+  .popular-post {
+    display: flex;
+    align-items: center;
+    margin-left: 1.3rem;
+
+  }
+  
+  .popular-post .post-img {
+    width: 115px; 
+    height: 70px;
+    flex-shrink: 0;
+  }
+  
+  .popular-post .post-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .popular-post .post-info {
+    flex-grow: 1;
+  }
+  
+  .popular-post .post-info a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #007bff;
+  }
+  
+  .popular-post .post-info a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+
+
+
+  .comments-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .comments-title {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .comment-img {
+    width: 100px; 
+    height: 100px;
+    flex-shrink: 0;
+  }
+  
+  .comment-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  
+  .comment-content {
+    flex-grow: 1;
+  }
+  
+  .comment-author {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+  }
+  
+  .comment-date {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  .comment-text {
+    font-size: 1.3rem;
+    color: #555;
+    line-height: 1.5;
+  }
+
+
+
+
+
+  .leave-comment-section {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .leave-comment-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .comment-form .form-control {
+    font-size: 1.2rem; 
+    padding: 0.75rem;
+    border: 1px solid #949494;
+    border-radius: 5px;
+  }
+  
+  .comment-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .comment-form textarea {
+    resize: none;
+  }
+  
+  .comment-form .btn-primary {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .comment-form .btn-primary:hover {
+    background-color: #0056b3;
+  }
