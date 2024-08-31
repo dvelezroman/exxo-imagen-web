@@ -67,6 +67,7 @@
   .service-image img {
     border-radius: 5px;
     width: 100%;
+    cursor: pointer;
     height: auto;
   }
   

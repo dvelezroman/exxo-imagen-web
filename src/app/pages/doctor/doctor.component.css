@@ -50,6 +50,10 @@
   .doctors-section {
     padding: 4rem 0;
   }
+
+  .doctor-box.text-center{
+    cursor: pointer;
+  }
   
   .doctor-box {
     background-color: #fff;
