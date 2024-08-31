@@ -1,0 +1,131 @@
+.doctors-header {
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+    color: white;
+  }
+  
+  .doctors-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+
+  .breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .breadcrumb-item a {
+    color: white;
+  }
+  
+  .breadcrumb-item.active {
+    color: #ccc;
+  }
+  
+  .text-end {
+    text-align: right !important;
+  }
+  
+  .col-md-6.text-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+
+  /* segundo bloque */
+
+  .doctors-section {
+    padding: 4rem 0;
+  }
+  
+  .doctor-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-image img {
+    width: 400px; 
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0 !important; 
+  }
+  
+  .doctor-info .doctor-name {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  .doctor-info .doctor-specialty {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .doctor-social {
+    margin-top: 1rem;
+  }
+  
+  .social-icon {
+    font-size: 1.55rem;
+    color: #007bff;
+    margin: 0 10px;
+
+    padding: .5rem;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #0056b3;
+  }
+
+
+  .subscribe-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribe-title {
+    font-size: 1.95rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .subscribe-text {
+    font-size: 1.3rem;
+    color: #555;
+  }
+  
+  .form-control {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #acabab; 
+  }
+  
+  .btn-subscribe {
+    background-color: #f0f0f0; 
+    border-color: #ccc; 
+    font-size: 1.3rem;
+    padding: 9px;
+    color: #333; 
+  }
+  
+  .btn-subscribe:hover {
+    background-color: #e0e0e0; 
+    border-color: #bbb; 
+    color: #000; 
+  }
