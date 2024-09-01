@@ -106,3 +106,121 @@
     border-radius: 50%;
     padding: 10px;
   }
+
+
+
+
+  @media (max-width: 1200px) {
+    .carousel-caption h5 {
+      font-size: 2.5rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 1.6rem;
+    }
+  
+    .animate-btn {
+      font-size: 1.3rem;
+      padding: 0.6rem 1.5rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .carousel-caption h5 {
+      width: 120%;
+      margin: auto;
+      font-size: 2rem;
+    }
+  
+    .carousel-caption p {
+      width: 120%;
+      margin: auto;
+      font-size: 1.5rem;
+    }
+  
+    .animate-btn {
+      width: 120%;
+      margin: auto;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      padding: 0.5rem 1.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: 80vh; 
+      min-height: 250px;
+      position: relative;
+      color: white;
+      overflow: hidden;
+    }
+
+    .carousel-caption h5,
+    .carousel-caption p,
+    .animate-btn {
+      opacity: 1; 
+      animation: none; 
+      transform: none; 
+    }
+  
+    .carousel-caption h5 {
+      width: 100%;
+      font-size: 1.6rem; 
+    }
+  
+    .carousel-caption p {
+      font-size: 1.3rem; 
+    }
+  
+    .animate-btn {
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem; 
+    }
+  
+    .carousel-caption {
+      top: 40%; 
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media (max-width: 490px) {
+    .carousel-image {
+      position: absolute;
+      top: -2%;
+      left: 0;
+      width: 100%;
+      height: 105%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards 1s, fadeOut 1s forwards 6s;
+    }
+
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+      opacity: 1;
+      transform: none;
+      animation: none;
+    }
+  
+    .carousel-caption p {
+      font-size: 1.2rem;
+      opacity: 1;
+      transform: none;
+      animation: none;
+    }
+  
+    .animate-btn {
+      font-size: 1rem;
+      padding: 0.4rem 1rem;
+      opacity: 1;
+      transform: none;
+      animation: none;
+    }
+  
+    .carousel-caption {
+      top: 40%; 
+      padding: 0.5rem 1rem;
+    }
+  }

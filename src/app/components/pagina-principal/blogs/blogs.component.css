@@ -90,3 +90,158 @@
   .read-more:hover {
     color: #0056b3;
   }
+
+
+  /* Responsive Styles */
+@media (max-width: 1200px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .blog-title {
+    font-size: 1.6rem;
+  }
+
+  .blog-text {
+    font-size: 1.1rem;
+  }
+
+  .read-more {
+    font-size: 1.1rem;
+  }
+
+  .blog-date {
+    padding: 8px;
+  }
+
+  .blog-date .day {
+    font-size: 1.4rem;
+  }
+
+  .blog-date .month {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .blog-title {
+    font-size: 1.5rem;
+  }
+
+  .blog-text {
+    font-size: 1rem;
+  }
+
+  .read-more {
+    font-size: 1rem;
+  }
+
+  .blog-date {
+    padding: 7px;
+  }
+
+  .blog-date .day {
+    font-size: 1.3rem;
+  }
+
+  .blog-date .month {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .blog-title {
+    font-size: 1.4rem;
+  }
+
+  .blog-text {
+    font-size: 1.2rem;
+  }
+
+  .read-more {
+    font-size: 1.1rem;
+  }
+
+  .blog-date {
+    padding: 10px;
+  }
+
+  .blog-date .day {
+    font-size: 1.5rem;
+  }
+
+  .blog-date .month {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .section-title {
+
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    width: 90%;
+    margin: auto;
+    font-size: 1.2rem;
+  }
+
+  .blog-image img {
+    border-radius: 10px 10px 0 0;
+    width: 90%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+  .blog-title {
+    font-size: 1.5rem;
+  }
+
+  .blog-text {
+    font-size: 1.2rem;
+    line-height: 22px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .read-more {
+    font-size: 1.1rem;
+  }
+
+  .blog-date {
+    padding: 5px;
+    top: 10%;
+    left: 10%;
+  }
+
+  .blog-date .day {
+    font-size: 1.3rem;
+  }
+
+  .blog-date .month {
+    font-size: 0.9rem;
+  }
+}
