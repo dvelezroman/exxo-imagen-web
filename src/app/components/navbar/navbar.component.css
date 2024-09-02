@@ -16,6 +16,23 @@
     color: #926ee1;
   }
 
+  .navbar-nav .nav-link.active {
+    color: #0f57a3;
+    font-weight: 500; 
+  }
+
+
+  .navbar-nav .nav-item.dropdown.active > .nav-link {
+    color: #0b4e95; 
+    font-weight: 500;
+  }
+
+  .navbar-nav .dropdown-item.active {
+    background-color: transparent !important;
+    color: inherit !important; 
+    font-weight: normal; 
+  }
+
   .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     padding-top: 2rem;
@@ -33,6 +50,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: absolute;
     min-width: 250px;
+    padding-bottom: 0rem;
   }
   
   .navbar-nav .dropdown-item {

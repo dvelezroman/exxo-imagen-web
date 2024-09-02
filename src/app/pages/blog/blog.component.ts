@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -8,6 +8,8 @@ import { RouterModule } from '@angular/router';
   templateUrl: './blog.component.html',
   styleUrl: './blog.component.css'
 })
-export class BlogComponent {
-
+export class BlogComponent implements OnInit {
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

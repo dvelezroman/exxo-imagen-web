@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -8,6 +8,8 @@ import { RouterModule } from '@angular/router';
   templateUrl: './appointment.component.html',
   styleUrl: './appointment.component.css'
 })
-export class AppointmentComponent {
-
+export class AppointmentComponent implements OnInit {
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }
