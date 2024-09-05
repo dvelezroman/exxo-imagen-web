@@ -12,7 +12,7 @@ import { DoctorDetallesComponent } from './pages/doctor-detalles/doctor-detalles
 import { BlogDetallesComponent } from './pages/blog-detalles/blog-detalles.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
     { path: 'about-us', component: AboutUsComponent },
     { path: 'appointment', component: AppointmentComponent },
