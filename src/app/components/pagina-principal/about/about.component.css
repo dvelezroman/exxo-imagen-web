@@ -1,21 +1,21 @@
 .about-section {
     background-color: #f8f9fa; 
-    padding: 8rem 0;
+    padding: 6rem 0;
     width: 100%; 
     margin: auto; 
 }
   
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
-    margin-bottom: .8rem;
+    margin-bottom: .7rem;
     color: #333;
   }
   
   .about-title {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #0b4e95;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
   }
   
   .text-purple {
@@ -23,46 +23,42 @@
   }
   
   .about-section p {
-    font-size: 1.45rem;
+    font-size: 1.1rem;
+    text-align: justify;
     color: #555;
     margin-bottom: 1rem;
   }
   
-  .img-fluid {
-    max-width: 98%;
-    height: auto;
-    border-radius: 10px;
-  }
 
   .enlarged-img {
-    max-width: 105%; 
-    margin: auto;
-    margin-left: -5%; 
-    height: 600px; 
+    width: 100%; 
+    margin: auto; 
+    height: 450px; 
     object-fit: cover; 
   }
   
   .service-box {
     display: flex;
-    padding: 1.6rem  1rem;
-    padding-left: 20px;
-    border: 1.5px solid #5c16e8; 
+    padding: 1.2rem;
+    padding-left: 10px;
+    border: 1px solid #5c16e8; 
     text-align: center;
     justify-content: center;
     background-color: #fff;
     margin-top: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .service-box i.icon-left {
-    margin-right: 15px;
-    font-size: 1.4rem; 
+    margin-right: 13px;
+    font-size: 1rem; 
+    margin-top: .1rem;
     color: #007bff; 
   }
   
   .service-box h4 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #333;
   }
@@ -73,34 +69,34 @@
 
 @media (max-width: 1200px) {
   .about-section {
-      padding: 6rem 0;
+      padding: 5rem 0;
   }
   
   .section-title {
-      font-size: 1.4rem;
+      font-size: 1.05rem;
   }
   
   .about-title {
-      font-size: 2.75rem;
+      font-size: 2rem;
   }
   
   .about-section p {
-      font-size: 1.3rem;
+      font-size: 1rem;
   }
 
-
   .service-box {
-    padding: 1.2rem 0.4rem;
+    padding: .8rem 0.1rem;
 }
 
 .service-box i.icon-left {
-  margin-right: 5px;
-  font-size: 1.15rem; 
+  margin-right: 9px;
+  font-size: .9rem;
+  margin-top: 0rem; 
   color: #007bff; 
 }
 
   .service-box h4 {
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 .img-fluid {
@@ -110,14 +106,11 @@
 .enlarged-img {
   max-width: 100%; 
   margin: auto;
-  margin-left: 1%; 
-  height: 600px; 
+  margin-left: 2%; 
+  height: 400px;
   object-fit: cover; 
 }
   
-  .enlarged-img {
-      height: 500px;
-  }
 }
 
 
@@ -128,27 +121,26 @@
   }
   
   .section-title {
-      font-size: 1.3rem;
+      font-size: 1rem;
   }
   
   .about-title {
-      font-size: 2.5rem;
+      font-size: 2rem;
   }
   
   .about-section p {
-      font-size: 1.2rem;
+      font-size: 1rem;
   }
 
   .service-box h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
   
-  .enlarged-img {
-      height: 400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
+.enlarged-img {
+  max-width: 90%; 
+  margin-left: 7%; 
+  height: 400px;
+}
 }
 
 
@@ -159,34 +151,53 @@
   }
   
   .section-title {
-      font-size: 1.2rem;
+      font-size: 1rem;
   }
   
   .about-title {
-      font-size: 2.2rem;
+      font-size: 2rem;
   }
   
   .about-section p {
-      font-size: 1.1rem;
+      font-size: 1rem;
   }
   
   .enlarged-img {
       height: 390px;
   }
+
+  .row.mt-4.bloque-service{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .service-box {
-      padding: 1.4rem 0.8rem;
+      padding: 1rem;
+      padding-left: 30px;
       border-radius: 5px;
+      display: flex;
+      justify-content: flex-start;  
+      margin-left: 0%;
   }
   
   .service-box i.icon-left {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
+      text-align: left;
   }
   
   .service-box h4 {
-      font-size: 1.1rem;
+      font-size: 1rem;
       margin-left: 7px;
-      font-weight: 500;
+      font-weight: 400;
+  }
+
+  .enlarged-img {
+    max-width: 100%; 
+    margin-left: 0%; 
+    height: 400px;
   }
 }
 

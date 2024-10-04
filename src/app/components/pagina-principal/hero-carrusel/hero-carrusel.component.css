@@ -1,19 +1,21 @@
 
 .carousel {
-    position: relative;
-    background-image: url('/assets/fondo carrusel-hero.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  position: relative;
+  background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.933) 6%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgba(245, 244, 244, 0.964) 93%), 
+      url('/assets/consultorio.1.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
   .carousel-indicators {
     display: none;
 }
 
 .carousel-item {
-    height: 85vh; 
-    min-height: 300px;
+    height: 100vh; 
+    min-height: 250px;
     position: relative;
     color: white;
     overflow: hidden;
@@ -32,6 +34,7 @@
   }
   
   .carousel-caption {
+    display: flex;
     position: absolute;
     top: 30%; 
     left: 50%;
@@ -44,7 +47,7 @@
   }
   
   .carousel-caption h5 {
-    font-size: 3rem;
+    font-size: 1.8rem;
     font-weight: bold;
     opacity: 0;
     animation: slideInLeft 1.5s forwards 1.5s, fadeOut 1s forwards 6s;
@@ -52,7 +55,7 @@
   }
   
   .carousel-caption p {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     opacity: 0;
     animation: slideInRight 1.5s forwards 1.5s, fadeOut 1s forwards 6s; 
     transform: translateX(100%);
@@ -60,9 +63,10 @@
   
   .animate-btn {
     margin-top: 2rem;
-    font-size: 1.5rem;
-    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
     opacity: 0;
+    border-radius: 25px;
     animation: slideUp 0.5s forwards 2s, fadeOut 1s forwards 6s;
     transform: translateY(50px);
   }
@@ -82,21 +86,21 @@
 @keyframes slideInLeft {
     to {
         opacity: 1;
-        transform: translateX(0); /* Se mueve al centro desde la izquierda */
+        transform: translateX(0); 
     }
 }
 
 @keyframes slideInRight {
     to {
         opacity: 1;
-        transform: translateX(0); /* Se mueve al centro desde la derecha */
+        transform: translateX(0); 
     }
 }
 
 @keyframes slideUp {
     to {
         opacity: 1;
-        transform: translateY(0); /* Se mueve al centro desde abajo */
+        transform: translateY(0); 
     }
 }
   
@@ -104,47 +108,38 @@
   .carousel-control-next-icon {
     background-color: transparent;
     border-radius: 50%;
-    padding: 10px;
   }
 
-
-
-
-  @media (max-width: 1200px) {
-    .carousel-caption h5 {
-      font-size: 2.5rem;
-    }
-  
-    .carousel-caption p {
-      font-size: 1.6rem;
-    }
-  
-    .animate-btn {
-      font-size: 1.3rem;
-      padding: 0.6rem 1.5rem;
-    }
-  }
   
   @media (max-width: 992px) {
-    .carousel-caption h5 {
-      width: 120%;
-      margin: auto;
-      font-size: 2rem;
-    }
+
+    .carousel-caption {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
   
-    .carousel-caption p {
+    .carousel-caption h5 {
       width: 120%;
       margin: auto;
       font-size: 1.5rem;
     }
   
-    .animate-btn {
+    .carousel-caption p {
       width: 120%;
       margin: auto;
-      margin-top: 3rem;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+    }
+  
+    .animate-btn {
+      margin: auto;
+      margin-top: 2rem;
+      margin-left: 50px;
+      font-size: 1rem;
       padding: 0.5rem 1.2rem;
     }
+
   }
   
   @media (max-width: 768px) {
