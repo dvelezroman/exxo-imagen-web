@@ -1,6 +1,6 @@
 .why-choose-us {
     background-color: #f8f9fa;
-    padding: 9rem 0;
+    padding: 0;
   }
 
   .text-center{
@@ -9,13 +9,14 @@
   }
   
   .text-why {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-right: .5rem;
     font-weight: 600;
     color: #104074;
   }
 
   .text-choose-us{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #5937d5;
   }

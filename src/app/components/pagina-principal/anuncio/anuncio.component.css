@@ -3,32 +3,31 @@
   color: white;
   padding: 0;
   position: relative;
-  margin-top: 4rem;
-  height: 180px;
+  margin: 12rem 0rem;
+  height: 150px;
   display: flex;
   align-items: center;
 }
 
 .franja-img {
   position: absolute;
-  bottom: -41px;
-  left: 70px;
-  z-index: 2;
-  max-width: 400px;
+  bottom: -56px;
+  left: 200px;
+  max-width: 220px;
+  margin-right: 0rem; 
 }
 
-.cta-title {
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: rgb(223, 226, 226);
-  margin: 0;
+.cta-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-cta {
   background-color: transparent;
   border: 2px solid rgb(223, 226, 226);
-  padding: 0.75rem 1.5rem;
-  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 25px;
@@ -42,80 +41,56 @@
   color: rgb(55, 55, 55);
 }
 
-.container {
-  height: 100%;
-}
-
-.row {
-  height: 100%;
-}
-
-
 /* Responsivos */
-
 @media (max-width: 992px) {
   .cta-section {
-    height: 150px;
-  }
-
-  .cta-title {
-    font-size: 1.8rem;
+    height: 140px;
   }
 
   .franja-img {
-    max-width: 300px; 
-    left: 50px;
-    top: -120px;
+    max-width: 200px;
+    bottom: -51px;
+    left: 120px;
+    margin-right: 0.5rem;
   }
 
   .btn-cta {
-    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 }
-
 
 @media (max-width: 768px) {
   .cta-section {
     height: 120px;
   }
 
-  .cta-title {
-    font-size: 1.5rem;
-  }
-
   .franja-img {
-    max-width: 240px; 
-    left: 30px;
-    top: -96px;
+    max-width: 160px;
+    bottom: -41px;
+    left: 50px;
   }
 
   .btn-cta {
-    padding: 12px;
-    font-size: .9rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
   }
 }
 
-
 @media (max-width: 490px) {
   .cta-section {
-    margin-top: 7rem;
-    height: 125px;
-  }
-
-  .cta-title {
-    font-size: 1.3rem;
-    display: none;
+    margin-top: 3rem;
+    height: 100px;
   }
 
   .franja-img {
-    max-width: 290px; 
-    top: -108%;
-    left: -35px;
+    max-width: 110px;
+    bottom: -29px;
+    left: 50px;
   }
 
   .btn-cta {
-    margin-left: -100%;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding: 0.5rem 1rem;
   }
 }
