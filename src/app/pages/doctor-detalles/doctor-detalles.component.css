@@ -1,21 +1,20 @@
 .doctor-details-header {
     background-size: cover;
     background-position: center;
-    padding: 5rem 0;
+    padding: 3rem 0;
     color: white;
   }
   
   .doctor-details-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   
-
   .breadcrumb {
     background: transparent;
     padding: 0;
     margin-bottom: 0;
-    font-size: 1.35rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: flex-end;
   }
@@ -43,9 +42,6 @@
     align-items: center;
   }
 
-
-
-
   .doctor-detail-section {
     padding: 5rem 0;
     margin-top: 3rem;
@@ -59,18 +55,18 @@
   }
   
   .doctor-name h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #333;
   }
   
   .doctor-specialty h4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #555;
   }
   
   .doctor-description p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #666;
   }
   
@@ -80,7 +76,7 @@
   }
   
   .doctor-social .social-icon {
-    font-size: 1.55rem;
+    font-size: 1.3rem;
     padding: 10px;
     color: #007bff;
     margin-right: 15px;
@@ -103,43 +99,3 @@
     background-color: #0056b3;
   }
 
-
-
-  .subscribe-section {
-    background-color: #f8f9fa;
-    padding: 3rem 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .subscribe-title {
-    font-size: 1.95rem;
-    margin-bottom: 0.5rem;
-    color: #333;
-  }
-  
-  .subscribe-text {
-    font-size: 1.3rem;
-    color: #555;
-  }
-  
-  .form-control {
-    padding: 0.75rem;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    border: 1px solid #a6a4a4; 
-  }
-  
-  .btn-subscribe {
-    background-color: #f0f0f0; 
-    border-color: #ccc; 
-    color: #333; 
-    font-size: 1.2rem;
-    padding: .8rem;
-  }
-  
-  .btn-subscribe:hover {
-    background-color: #e0e0e0; 
-    border-color: #bbb;
-    color: #000; 
-  }

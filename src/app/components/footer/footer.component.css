@@ -5,14 +5,14 @@
   }
   
   .footer-title {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 1rem;
   }
   
   .footer-text {
     width: 80%;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: #bdc3c7;
     margin-bottom: 0.5rem;
   }
@@ -20,18 +20,16 @@
   .footer-links {
     list-style: none;
     padding: 0;
-   
   }
   
   .footer-links li {
     margin-bottom: 0.5rem;
-
   }
   
   .footer-links a {
     color: #bdc3c7;
     text-decoration: none;
-    font-size: 1.25rem; 
+    font-size: 1.1rem; 
   }
   
   .footer-links a:hover {
@@ -45,7 +43,7 @@
   
   .footer-rights {
     margin-top: 4rem; 
-    font-size: 1.175rem;
+    font-size: 1rem;
     color: #cacccc;
     text-align: center; 
   }

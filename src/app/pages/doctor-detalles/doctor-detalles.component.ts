@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { SuscribersComponent } from "../../components/pagina-principal/suscribers/suscribers.component";
 
 @Component({
   selector: 'app-doctor-detalles',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, SuscribersComponent],
   templateUrl: './doctor-detalles.component.html',
   styleUrl: './doctor-detalles.component.css'
 })

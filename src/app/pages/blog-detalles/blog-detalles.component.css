@@ -1,23 +1,20 @@
 .blog-details-header {
     background-size: cover;
     background-position: center;
-    padding: 5rem 0;
+    padding: 3rem 0;
     color: white;
   }
   
   .blog-details-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   
-
-
-
   .breadcrumb {
     background: transparent;
     padding: 0;
     margin-bottom: 0;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: flex-end;
   }
@@ -277,9 +274,6 @@
     color: #0056b3;
     text-decoration: underline;
   }
-
-
-
 
   .comments-section {
     margin-top: 3rem;

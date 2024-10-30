@@ -1,21 +1,20 @@
 .contact-header {
     background-size: cover;
     background-position: center;
-    padding: 5rem 0;
+    padding: 3rem 0;
     color: white;
   }
   
   .contact-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   
-
   .breadcrumb {
     background: transparent;
     padding: 0;
     margin-bottom: 0;
-    font-size: 1.35rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: flex-end;
   }
@@ -53,7 +52,7 @@
   }
   
   .form-title {
-    font-size: 2.25rem; 
+    font-size: 1.8rem; 
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: #333;
@@ -61,8 +60,8 @@
   }
   
   .appointment-form .form-control {
-    padding: 0.85rem; 
-    font-size: 1.1rem; 
+    padding: 0.7rem; 
+    font-size: 1rem; 
     border-radius: 5px;
     border: 1px solid #b2b1b1; 
     margin-bottom: 1.5rem; 
@@ -79,7 +78,7 @@
     border-color: #007bff;
     padding: 0.6rem 2.5rem !important; 
     font-size: 1rem !important; 
-    border-radius: 25px;
+    border-radius: 5px;
     text-transform: uppercase;
     display: inline-block;
     color: white; 
@@ -91,41 +90,3 @@
     color: white; 
   }
 
-  .subscribe-section {
-    background-color: #f8f9fa;
-    padding: 3rem 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .subscribe-title {
-    font-size: 1.75rem;
-    margin-bottom: 0.5rem;
-    color: #333;
-  }
-  
-  .subscribe-text {
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  .form-control {
-    padding: 0.75rem;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: 1px solid #ccc; 
-  }
-
-
-  .btn-subscribe {
-    background-color: #f0f0f0; 
-    border-color: #2178ce; 
-    font-size: 1.2rem;
-    color: #333; 
-  }
-  
-  .btn-subscribe:hover {
-    background-color: #007bff; 
-    border-color: #1378d7; 
-    color: #e9e6e6; 
-  }

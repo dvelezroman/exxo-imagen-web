@@ -1,0 +1,27 @@
+.pagination {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .page-link {
+    color: #77797b;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .page-link:hover {
+    background-color: #ac71f0;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .page-item.disabled .page-link {
+    color: #6c757d;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
