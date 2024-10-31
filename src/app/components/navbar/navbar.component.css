@@ -1,5 +1,6 @@
 .navbar-nav {
-  margin-right: 100px; 
+  margin-right: 60px; 
+  padding: 2rem 0;
 }
 
   .nav-link {
@@ -16,12 +17,12 @@
   }
 
   .navbar-nav .nav-link.active {
-    color: #0f57a3;
+    color: #8c106b;
     font-weight: 500; 
   }
 
   .navbar-nav .nav-item.dropdown.active > .nav-link {
-    color: #0b4e95; 
+    color: #8c106b;
     font-weight: 500;
   }
 
@@ -74,11 +75,6 @@
     border-color: #007bff;
     margin-left: 1rem;
     font-size: 1.25rem;
-  }
-  
-  .navbar-brand img {
-    max-width: 80%;
-    height: auto;
   }
 
   .navbar-toggler{
